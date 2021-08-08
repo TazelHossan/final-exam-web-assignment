@@ -1,0 +1,125 @@
+@keyframes mui-rotate-dash {
+  0% {
+    stroke-dasharray: 1px, 200px;
+    stroke-dashoffset: 0px;
+  }
+  50% {
+    stroke-dasharray: 100px, 200px;
+    stroke-dashoffset: -15px;
+  }
+  100% {
+    stroke-dasharray: 100px, 200px;
+    stroke-dashoffset: -125px;
+  }
+}
+
+@keyframes mui-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/**
+*
+* HEADER
+*
+**/
+
+.header .wisr-logo {
+  background-image: url(https://identity.wisr.tech/img/logos/wisr_owl.svg);
+  width: 123px;
+}
+
+.header .cobrand-logo {
+  margin-left: auto;
+  text-align: right;
+  display: none;
+}
+
+/*
+* BODY
+*
+**/
+
+body[data-page] {
+  background: #fff;
+  margin: 0;
+  overflow: auto;
+}
+
+.register-row {
+  text-align: left;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.forgot-pwd-row,
+.login-row {
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+}
+
+.full-stop li:after {
+  content: ".";
+}
+
+.btn[disabled],
+form.submitting .btn {
+  background: #a3a09b;
+  pointer-events: none;
+}
+
+.MuiCircularProgress-circle {
+  animation: mui-rotate-dash 1.4s ease-in-out infinite;
+  stroke-dasharray: 80px, 200px;
+  stroke-dashoffset: 0px;
+  stroke: currentColor;
+  transform-origin: center;
+}
+
+.MuiCircularProgress-root {
+  display: none;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  margin-left: 0px;
+  margin-bottom: 0;
+  opacity: 1;
+  transition: all 0.5s ease 0s;
+}
+
+.MuiCircularProgress-svg {
+  animation: mui-rotate 1.4s ease-in-out infinite;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+form.submitting .MuiCircularProgress-root {
+  display: inline-block;
+}
+
+.submitting .btn-mint:hover:after,
+.submitting .btn-mint:active:after,
+.submitting .btn-mint:focus:after {
+  opacity: 0;
+}
+
+.btn-mint > .btn-text {
+  display: inline-block;
+}
+
+[data-page="reconfirm-email"] form.wisr-layout {
+  padding-top: 0;
+}
+
+@media (min-width: 767px) {
+  [data-page="resend-confirm-email"] .title h1,
+  [data-page="confirm-email"] .title h1 {
+    max-width: 90%;
+  }
+}

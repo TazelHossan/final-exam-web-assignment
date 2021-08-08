@@ -1,0 +1,64 @@
+﻿@media (min-width: 1300px) {
+  .footer .container .fieldset .grid {
+    grid-column: 4/6;
+  }
+}
+@media (min-width: 767px) and (max-width: 1300px) {
+  .footer .container .fieldset .grid {
+    display: flex;
+    grid-column: 3/6;
+    justify-content: flex-end;
+  }
+}
+@media (max-height: 968px) {
+  .footer,
+  div.disclaimer {
+    position: relative;
+    bottom: 0;
+  }
+  .hero::before {
+    left: -51vw;
+  }
+}
+
+@media (max-width: 768px), (max-height: 880px) {
+  .content-wrapper .disclaimer {
+    position: relative;
+    bottom: 0;
+  }
+}
+
+.error .icon-visible {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.login-row {
+  padding-top: 3rem;
+  font-size: 14px;
+}
+
+.error .hidden {
+  display: inline;
+}
+
+.disclaimer {
+  position: absolute;
+  bottom: 150px;
+}
+
+.column .button {
+  margin-right: 1rem;
+}
+
+.login-row a {
+  margin-left: 0.5rem;
+}
+
+.grid p strong {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,17 @@
+﻿.register-row a {
+  margin-left: 0.5rem;
+}
+@media (max-height: 640px) {
+  .footer {
+    position: relative;
+  }
+  .hero::before {
+    left: -51vw;
+  }
+}
+
+@media (min-height: 640px) and (max-width: 768px) {
+  .footer {
+    position: fixed;
+  }
+}

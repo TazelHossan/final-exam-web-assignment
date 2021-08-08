@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tazel Hossan &mdash; AI/ML. Smart Data. IoT.</title>
+    <meta property="og:title" content="Tazel Hossan &mdash; AI/ML. Smart Data. IoT.">
+    <meta property="og:site_name" content="Tazel Hossan">
+    <meta property="og:image" content="assets/i/profile.png">
+    <script src="assets/js/page-progress.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <style>
+        /*Page preloader*/
+        .preload-page:not(.page-load){
+            width: calc(100vw - 17px);
+            overflow-y: hidden;
+        }
+        .touchevents.preload-page{
+            width: auto;
+        }
+        .pace{
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            width: 0;
+            visibility: hidden;
+            opacity: 0;
+        }
+        #page-preloader{
+            position: fixed;
+            z-index: 12001;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            overflow-y: auto;
+            background: #fff;
+        }
+        .no-touchevents.page-load #page-preloader{
+            width: calc(100% + 17px);
+        }
+        #page-preloader .logo-box{
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 0;
+            margin: 0 0 32px;
+        }
+        #page-preloader .logo-box .fill{
+            position: absolute;
+            z-index: 10;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 41px;
+            overflow: hidden;
+        }
+        #page-preloader .logo-box .fill .logo{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 163px;
+            height: 41px;
+            max-width: none;
+            margin: 0;
+        }
+        #page-preloader .logo-box > .logo{
+            width: 163px;
+            height: 41px;
+            max-width: none;
+            margin: 0;
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+            opacity: .1;
+        }
+        .preload-page:not(.page-load) *:not(.swiper-wrapper):not(.swiper-slide){
+            transition: none !important;
+        }
+        @media screen and (max-width: 420px){
+            .about-section .figure{
+                width: 700px;
+            }
+        }
+    </style>
+</head>
+<body class="index-page preload-page">
+    <div id="page-preloader">
+        <div class="logo-box">
+            <div class="fill">
+                <img src="assets/i/mylogo.png" class="logo" alt="My logo">
+            </div>
+            <img src="assets/i/mylogo.png" class="logo" alt="My logo">
+         </div>
+    </div>
+<header id="header">
+    <div class="container">
+		<a href="index.html" id="logo">
+            <img src="assets/i/mylogo.png" alt="Tazel Hossan">
+        </a>
+        <nav id="secondary-nav">
+                            <ul>
+								<li><a href="index.html" >Home</a></li>
+								<li><a href="contact-us/index.html" >Contact</a></li>
+								<li><a href="account/Register.html" >Register</a></li>
+						</ul>
+         </nav> 
+</header>
+<div id="all">
+        <div id="main-screen">
+	   <div class="container">
+        <div class="sub-box">
+            <div class="we-are-text">
+                <p>IOT <svg width="21" height="20" viewBox="0 0 21 20" fill="none" class="separator"><line opacity="0.3" x1="1.29289" y1="19.2929" x2="19.6777" y2="0.908117" stroke="#8691A8" stroke-width="2"/></svg> SMART DATA <svg width="21" height="20" viewBox="0 0 21 20" fill="none" class="separator"><line opacity="0.3" x1="1.29289" y1="19.2929" x2="19.6777" y2="0.908117" stroke="#8691A8" stroke-width="2"/></svg> AI</p>
+            </div>
+            <div class="slogan-text">
+                <div class="text-item">
+                     <p class="sub-text">future</p>
+                    <p class="h1">how</p>
+                </div>
+                <div class="text-item">
+                    <p class="sub-text">present</p>
+                    <p class="h1">can<small>&</small></p>
+                </div>
+                <div class="text-item">
+                    <p class="h1">achieve</p>
+                    <p class="sub-text">past</p>
+                </div>
+            </div>
+        </div>
+        <span class="js-scroll-screen">Scroll</span>
+    </div>
+    <div class="bg">
+        <video class="video" autoplay loop muted playsinline>
+            <source src="video/main-screen-video.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<section class="section what-we-do-section js-view-checker" data-vp-offset="10%">
+    <div class="container">
+        <p class="h2">Artificial Intelligence won't be the era of war, but be the era of deep compassion & non-violence.</p>
+        <div class="description-grid">
+            <div class="title-box">
+                <p class="h6">What founds here</p>
+            </div>
+            <div class="text-box">
+                <div class="important-text">
+                    <p>Here You can find the best information and knowledge in about artificial intelligence (AI), machine learning (ML), internet of things (IoT), and smart data. We share our personal experience skills of these technologies.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section applications-section js-view-checker" data-vp-offset="40%">
+    <div class="container">
+        <p class="h6">Applications of Artificial Intelligence</p>
+        <div class="main-text-slider-box large-width js-view-checker">
+            <div class="main-text-bullets-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="main-text-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-bullet="Healthtech">
+                            <p class="h2">Healthtech</p>
+                            <div class="important-text">
+                                <p>Helping health IT companies and providers navigate the shift to value-based care with confidence.</p>
+                            </div>
+                            <div class="text-grid three-col">
+                                <div class="col">
+                                    <p><b>Image processing and analysis:</b> Help doctors reduce their diagnostic workloads, improve accuracy, detect life-threatening conditions earlier, and more.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Speech rehabilitation:</b> Enable speech-language therapists to study, diagnose, and treat communication disorders more effectively.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Genome analysis:</b> Unlock lower sequencing costs and the ability to analyze larger volumes of data while trying to better understand causes and novel variations of rare diseases.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Natural language processing:</b> Improve the accuracy and integrity of electronic health records by turning clinical notes from disparate sources into unified, structured data.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Predictive analytics:</b> Analyze clinical data and PGHD to identify trends in care delivery outcomes, treatment progress, costs, staff performance, and more.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-bullet="Fintech">
+                            <p class="h2">Fintech</p>
+                            <div class="important-text">
+                                <p>We are enabling forward-thinking financial institutions and startups to reinvent customer experiences without shaking the foundations.</p>
+                            </div>
+                            <div class="text-grid three-col">
+                                <div class="col">
+                                    <p><b>Antimoney laundering:</b> Better understand customer data, identify changes in customer behavior on time, automate KYC procedures, reduce false positives, and more.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Fraud detection:</b> Automatically detect intricate patterns while minimizing human error and time-consuming tasks; allow fraud analysts to focus on severe cases.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Robotic process automation:</b> Automate repetitive, high-volume, and rule-based work, such as KYC/AML, customer onboarding, invoice delivery, data entry, and more.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Credit valuation adjustment:</b> Perform CVA calculations and get results faster while solving scaling and latency issues and keeping costs at bay.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-bullet="Mobility">
+                            <p class="h2">Mobility</p>
+                            <div class="important-text">
+                                <p>Allowing businesses and cities to embrace this new trend while streamlining collaboration, workflows, and services.</p>
+                            </div>
+                            <div class="text-grid three-col">
+                                <div class="col">
+                                    <p><b>Aviation systems:</b> Help aircrews automate routine jobs, timely and fully execute checklists, and continuously analyze parameters such as altitude, direction, and speed, in real time.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Urban mobility:</b> Provide increased safety, availability, comfort, and performance of city infrastructure to power individuals, municipalities, and companies.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Predictive analytics:</b> Improve mobility services by analyzing big data and predicting movements of people, vehicles, and assets.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Digital twins:</b> Collect massive amounts of big data from connected cars and replicate it in a digital model for more accurate analysis, prediction, and planning.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-bullet="Smart cities">
+                            <p class="h2">Smart cities</p>
+                            <div class="important-text">
+                                <p>Improving urban life and governance through the winning combination of digital solutions, IoT, and rich analytics.</p>
+                            </div>
+                            <div class="text-grid three-col">
+                                <div class="col">
+                                    <p><b>Video surveillance:</b> Leverage AI algorithms while analyzing video data to detect situational anomalies, prevent crime, manage traffic, and more.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Mobility:</b> Unlock next-gen mobility solutions to improve public transportation, fleet management, route planning, city parking, traffic management, and more.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Energy management:</b> Record, aggregate, analyze, and visualize all energy-related data for improved performance, maintenance, and cost-efficiency.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Traffic management:</b> Analyze traffic density, optimize traffic lights, reduce waiting time at intersections, prevent road congestion, re-route traffic in emergency situations, and more.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Predictive analytics:</b> Build models of city infrastructure, estimate resources, and predict crime, traffic, and public transport usage.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-bullet="Smart machines">
+                            <p class="h2">Smart machines</p>
+                            <div class="important-text">
+                                <p>Implementing self-driving cars, robots, and other cognitive computing systems that complete tasks and make intelligent decisions without human intervention.</p>
+                            </div>
+                            <div class="text-grid three-col">
+                                <div class="col">
+                                    <p><b>Digital twins:</b> Create virtual models of products, services, or processes to prevent downtime and failure, as well as discover new opportunities.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Predictive maintenance:</b> Analyze real-time and historical data to determine when a machine or a system will need to be serviced proactively, before it breaks down.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Connected cars:</b> Enable businesses and customers to benefit from cars connected to the city infrastructure, such as roads, traffic lights, and buildings.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Simultaneous localization and mapping:</b> Get the most out of sensor data and sophisticated SLAM algorithms to let robots build their own maps in unknown surroundings</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Sensor fusion:</b> Merge data collected from sensors such as video, lidars, and radars to help machines navigate and perform tasks with more certainty and precision.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section technologies-section">
+    <div class="container">
+        <div class="bg-links-items-box">
+            <p class="h6">Technologies</p>
+            <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#data-science-anchor" class="js-ajax-link">AI and ML</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>Artificial intelligence (AI) is a wide-ranging branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.</p>
+                </div>
+            </div>
+            <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#big-data-anchor" class="js-ajax-link">Big Data and Smart Data</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                   	<p>The definition of big data is data that contains greater variety, arriving in increasing volumes and with more velocity. This is also known as the three Vs. Smart data is data from which signals and patterns have been extracted by intelligent algorithms.</p>
+
+				</div>
+            </div>
+            <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Internet of Things</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>The Internet of Things (IoT) refers to a system of interrelated, internet-connected objects that are able to collect and transfer data over a wireless network without human intervention.A ‘thing’ can refer to a connected medical device, a biochip transponder (think livestock), a solar panel, a connected automobile with sensors that alert the driver to a myriad of possible issues (fuel, tire pressure, needed maintenance, and more) or any object, outfitted with sensors, that has the ability to gather and transfer data over a network.</p>
+				</div>
+            </div>
+            <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#computer-vision-anchor" class="js-ajax-link">Computer Vision</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>Computer vision is a field of artificial intelligence (AI) that enables computers and systems to derive meaningful information from digital images, videos and other visual inputs — and take actions or make recommendations based on that information. If AI enables computers to think, computer vision enables them to see, observe and understand.</p></div>
+            </div>
+            <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#language-processing-anchor" class="js-ajax-link">Natural Language Processing</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>Natural language processing is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data. </p></div>
+            </div>
+        </div>
+    </div>
+</section>
+    <div id="indent"></div>
+</div>
+<footer id="footer" class="js-light-cursor js-view-checker" data-vp-offset="40%">
+    <div class="container">
+                    <div class="footer-contacts-box">
+    <p class="h2"><span class="animate">You Can Share Your Experience</span></p>
+    <div class="footer-contacts">
+        <div class="has-icon">
+            <span class="icon"><svg width="26" height="20" viewBox="0 0 26 20" fill="none"><rect x="0.5" y="0.5" width="25" height="19" rx="3.5" stroke="#8691A8"/><path d="M3 4L13 14L23 4M9.5 11.5L4 17M16 11.5L21.5 17" stroke="#8691A8"/></svg></span>
+            <p><a href="mailto:tazelhossan@gmail.com">tazelhossan@gmail.com</a></p>
+        </div>
+        <div class="has-icon">
+            <span class="icon"><svg width="18" height="26" viewBox="0 0 18 26" fill="none"><path d="M4 0.5H14C15.933 0.5 17.5 2.067 17.5 4V22C17.5 23.933 15.933 25.5 14 25.5H4C2.067 25.5 0.5 23.933 0.5 22V4C0.5 2.067 2.067 0.5 4 0.5Z" stroke="#8691A8"/><path d="M10.5 20C10.5 20.8284 9.82843 21.5 9 21.5C8.17157 21.5 7.5 20.8284 7.5 20C7.5 19.1716 8.17157 18.5 9 18.5C9.82843 18.5 10.5 19.1716 10.5 20Z" stroke="#8691A8"/></svg></span>
+            <p><a href="tel:+8801750587623">+88 01750-587623</a></p>
+        </div>
+        <div class="has-icon">
+            <span class="icon"><svg width="26" height="20" viewBox="0 0 26 20" fill="none"><rect x="0.5" y="0.5" width="25" height="19" rx="3.5" stroke="#8691A8"/><circle cx="13" cy="10" r="4.75" stroke="#8691A8"/><circle cx="13" cy="10" r="1.5" stroke="#8691A8"/><path d="M13 14.5L13 16" stroke="#8691A8"/><path d="M13 4L13 5.5" stroke="#8691A8"/><path d="M17.5 10H19" stroke="#8691A8"/><path d="M7 10H8.5" stroke="#8691A8"/></svg></span>
+            <p>Jahangirnagr University <span class="separator">/</span> <span class="city">Department of</span></p>
+            <p>Computer Science & Engineering <span class="separator">/</span> <span class="city">Savar</span></p>
+            <p>Dhaka <span class="separator">/</span> <span class="city">1343</span></p>
+        </div>
+    </div>
+</div>
+
+   <div class="footer-form-box">
+    <form id="contactForm"  >
+        <input type="hidden" name="_language" value="en">
+        <input type="text" name="_gotcha" style="display:none">
+        <div class="field required">
+            <label class="field-name" for="form-name">
+                <span>Name</span>
+            </label>
+            <div class="inp-box">
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <p class="field-error" style="display: none"></p>
+        </div>
+        <div class="field required">
+            <label class="field-name" for="form-email">
+                <span>Email</span>
+            </label>
+            <div class="inp-box">
+                <input id="email" name=="email" type="email" name="_replyto" class="form-control" required>
+            </div>
+            <p class="field-error" style="display: none"></p>
+        </div>
+        <div class="field required">
+            <label class="field-name" for="form-message">
+                <span>Message</span>
+            </label>
+            <div class="inp-box">
+                <textarea id="message" name="message" rows="1" cols="1" class="form-control" required></textarea>
+            </div>
+            <p class="field-error" style="display: none"></p>
+        </div>
+        <button type="submit" class="btn">Get in touch<span class="btn-circle"><svg width="22" height="8" viewBox="0 0 22 8" fill="none"><path d="M0 7H18L10.9565 2V5.21429" stroke="#DC0C1C" stroke-width="2"/></svg></span></button>
+        <div class="result-message"></div>
+        <div class="ajax-form-succes-message" style="display: none">
+            <p>Your message was successfully sent.</p>
+        </div>
+    </form>
+</div>
+            </div>
+    <div class="footer-bg">
+        <div class="container">
+            <svg width="19" height="20" viewBox="0 0 19 20" fill="none"><line x1="0.353553" y1="0.646447" x2="7.76532" y2="8.05821" stroke="#8691A8"/><path d="M18 18.6602L9.16981 9.82997L18 0.999779" stroke="#8691A8"/></svg>
+            <svg width="31" height="31" viewBox="0 0 31 31" fill="none"><line x1="0.646447" y1="30.6464" x2="13.8817" y2="17.4112" stroke="#8691A8"/><path d="M30 30.4341L15.283 15.7171L30 1.00012" stroke="#8691A8"/></svg>
+        </div>
+    </div>
+</footer>
+
+    <div id="popup-box">
+        <div class="container"></div>
+    </div>
+
+<div class="cookies-message" style="display: none">
+    <div class="container">
+    <p>We use cookies to improve the usability of our website. </p>
+<span class="js-agree">I agree</span></div>
+</div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+<script src="assets/js/signup.js"></script>
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/jquery.responsimg.min.js"></script>
+<script src="assets/js/jquery.viewportchecker.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/textarea-autosize.min.js"></script>
+<script src="assets/js/lottie.min.js"></script>
+    <script>
+        /*Page preloader*/
+        Pace.on("update", function(percent){
+            percent = percent.toFixed(0);
+            $('#page-preloader .fill').css('width', percent + '%')
+        });
+        Pace.on('done', function(){
+            setTimeout(function(){
+                $('body').addClass('page-load');
+                $('#page-preloader').fadeOut(550);
+            }, 500);
+        });
+    </script>
+	
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
