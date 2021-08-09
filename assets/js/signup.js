@@ -12,7 +12,7 @@
   firebase.initializeApp(firebaseConfig);
 
 // Reference messages collection
-var messagesRef = firebase.database().ref('contacts');
+var messagesRef = firebase.database().ref('Contacts Info');
 
 // Listen for form submit
 document.getElementById('contactForm').addEventListener('submit', submitForm);
