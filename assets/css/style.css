@@ -279,7 +279,7 @@ table a[href^=tel], table a[href^=fax], table a[href^=mailto]{
 	text-decoration: none;
 	}
 a{
-	color: #dc0c1c;
+	color: black;
 	outline: none !important;
 	text-decoration: none;
 	}
