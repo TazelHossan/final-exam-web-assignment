@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tazel Hossan &mdash; AI/ML. Smart Data. IoT.</title>
+    <meta property="og:title" content="Tazel Hossan &mdash; AI/ML. Smart Data. IoT.">
+    <meta property="og:site_name" content="Tazel Hossan">
+    <meta property="og:image" content="assets/i/profile.png">
+    <script src="assets/js/page-progress.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icon/tab_icon.24x24.svg">
+    <style>
+        /*Page preloader*/
+        .preload-page:not(.page-load){
+            width: calc(100vw - 17px);
+            overflow-y: hidden;
+        }
+        .touchevents.preload-page{
+            width: auto;
+        }
+        .pace{
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            width: 0;
+            visibility: hidden;
+            opacity: 0;
+        }
+        #page-preloader{
+            position: fixed;
+            z-index: 12001;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            overflow-y: auto;
+            background: #fff;
+        }
+        .no-touchevents.page-load #page-preloader{
+            width: calc(100% + 17px);
+        }
+        #page-preloader .logo-box{
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 0;
+            margin: 0 0 32px;
+        }
+        #page-preloader .logo-box .fill{
+            position: absolute;
+            z-index: 10;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 41px;
+            overflow: hidden;
+        }
+        #page-preloader .logo-box .fill .logo{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 163px;
+            height: 41px;
+            max-width: none;
+            margin: 0;
+        }
+        #page-preloader .logo-box > .logo{
+            width: 163px;
+            height: 41px;
+            max-width: none;
+            margin: 0;
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+            opacity: .1;
+        }
+        .preload-page:not(.page-load) *:not(.swiper-wrapper):not(.swiper-slide){
+            transition: none !important;
+        }
+        @media screen and (max-width: 420px){
+            .about-section .figure{
+                width: 700px;
+            }
+        }
+    </style>
+</head>
+<body class="index-page preload-page">
+    <div id="page-preloader">
+        <div class="logo-box">
+            <div class="fill">
+                <!--<img src="assets/i/mylogo.png" class="logo" alt="My logo">-->
+				<!-- SVG Logo Start -->
+<svg width="307.9700119018555" height="39.49242579922323" viewBox="0 0 350 44.88212649137106" class="looka-1j8o68f"><defs id="SvgjsDefs1060"></defs><g id="SvgjsG1061" featurekey="A7DQL5-0" transform="matrix(2.847843386492224,0,0,2.847843386492224,0.000055676259444323156,-12.074748028261162)" fill="#111111"><path d="M5.86 4.5 l-0.000019531 -0.26 l-5.86 0 l0 0.64 l3.38 0 l0 15.12 l0.7 0 l0 -15.12 l1.8 0 c-0.02666 -0.21334 -0.03332 -0.34 -0.01998 -0.38 z M6.38 4.24 l0 0.64 l1.1 0 l0 -0.64 l-1.1 0 z M15.42 6.140000000000001 c0 0.08 0.23666 0.84334 0.71 2.29 s0.99 3.03 1.55 4.75 s1.3133 3.9934 2.26 6.82 l0.86 0 l-5.3 -15.76 l-0.16 0 l-5.26 15.76 l0.82 0 z M15.06 15.52 l-0.72 0 l1.2 4.48 l0.72 0 z M25.24 19.26 l-0.84 -0.000039062 l7.52 -14.92 l0 -0.1 l-1.68 0 c0 0.13334 -0.0033398 0.27668 -0.01 0.43002 s-0.01 0.25668 -0.01 0.31002 l0.7 0 l-7.52 14.9 l0 0.12 l1.84 0 l0 -0.74 z M26.619999999999997 4.24 l-1.08 0 l0 0.74 l1.08 0 l0 -0.33 l0 -0.41 z M29.479999999999997 19.25996 l0 0.74 l1.02 0 l0 -0.74 l-1.02 0 z M35.08 14.16 l0 -9.36 l4.8 0 l0 -0.56 l-5.36 0 l0 9.92 l0.56 0 z M40.08 20 l0 -0.54 l-5 0 l0 -4.14 l0.8 0 l0 -0.54 l-1.36 0 l0 5.22 l5.56 0 z M43.33999999999999 16.06 l0 -11.82 l-0.66 0 l0 11.82 l0.66 0 z M48.71999999999999 20 l0 -0.68 l-5.38 0 l0 -1.96 l-0.66 0 l0 2.64 l6.04 0 z M56.99999999999999 13.96 l0 -9.72 l-0.68 0 l0 15.76 l0.68 0 l0 -5.4 l0 -0.64 z M57.279999999999994 14.6 l5.84 0 l0 5.4 l0.68 0 l0 -11.62 l-0.68 0 l0 5.58 l-5.84 0 l0 0.64 z M73.39999999999999 20 c2.2134 0 4.1 -0.78 5.66 -2.34 c0.77334 -0.76 1.3567 -1.58 1.75 -2.46 s0.59 -1.88 0.59 -3 c0 -2.2266 -0.78 -4.1066 -2.34 -5.64 c-1.56 -1.52 -3.4866 -2.2866 -5.78 -2.3 c-1.4133 0.01334 -2.74 0.36668 -3.98 1.06 c-1.2133 0.70666 -2.18 1.6867 -2.9 2.94 l0.58 0.32 c0.65334 -1.16 1.54 -2.06 2.66 -2.7 c1.1067 -0.64 2.32 -0.96666 3.64 -0.98 c2.1334 0.01334 3.9066 0.72668 5.32 2.14 c1.4133 1.3867 2.1266 3.1066 2.14 5.16 c0 1.0267 -0.18 1.9433 -0.54 2.75 s-0.88666 1.5633 -1.58 2.27 c-1.4267 1.4267 -3.1666 2.14 -5.22 2.14 c-1.28 0 -2.44 -0.27334 -3.48 -0.82 l-0.3 0.58 c1.1333 0.58666 2.3934 0.88 3.78 0.88 z M86.08 11.02 l1.78 1.66 c0.56 0.52 1 1.0767 1.32 1.67 s0.48 1.19 0.48 1.79 l0 0.26 c0.01334 0.42666 -0.04 0.80666 -0.16 1.14 l0.74 0 c0.10666 -0.36 0.15332 -0.73334 0.13998 -1.12 l0 -0.28 c0 -0.72 -0.18334 -1.4067 -0.55 -2.06 s-0.87666 -1.2933 -1.53 -1.92 l-1.72 -1.62 c-0.54666 -0.52 -0.99666 -1.0067 -1.35 -1.46 s-0.53 -1.02 -0.53 -1.7 l0 -0.12 c0 -0.70666 0.19666 -1.2767 0.59 -1.71 s0.94334 -0.65 1.65 -0.65 c0.50666 0 0.92 0.07666 1.24 0.23 s0.64666 0.38334 0.98 0.69 l0.46 -0.52 c-0.37334 -0.34666 -0.75668 -0.60666 -1.15 -0.78 s-0.90334 -0.26 -1.53 -0.26 c-0.81334 0 -1.5033 0.26334 -2.07 0.79 s-0.85 1.2567 -0.85 2.19 l0 0.16 c0 0.76 0.19 1.41 0.57 1.95 s0.87666 1.0967 1.49 1.67 z M89.96 18.3 l-0.82002 0 c-0.46666 0.68 -1.2133 1.0267 -2.24 1.04 c-0.34666 0 -0.66 -0.04 -0.94 -0.12 l0 0.7 c0.28 0.05334 0.59334 0.08 0.94 0.08 c0.72 0 1.34 -0.14666 1.86 -0.44 s0.92 -0.71334 1.2 -1.26 z M95.06 11.02 l1.78 1.66 c0.56 0.52 1 1.0767 1.32 1.67 s0.48 1.19 0.48 1.79 l0 0.26 c0.01334 0.42666 -0.04 0.80666 -0.16 1.14 l0.74 0 c0.10666 -0.36 0.15332 -0.73334 0.13998 -1.12 l0 -0.28 c0 -0.72 -0.18334 -1.4067 -0.55 -2.06 s-0.87666 -1.2933 -1.53 -1.92 l-1.72 -1.62 c-0.54666 -0.52 -0.99666 -1.0067 -1.35 -1.46 s-0.53 -1.02 -0.53 -1.7 l0 -0.12 c0 -0.70666 0.19666 -1.2767 0.59 -1.71 s0.94334 -0.65 1.65 -0.65 c0.50666 0 0.92 0.07666 1.24 0.23 s0.64666 0.38334 0.98 0.69 l0.46 -0.52 c-0.37334 -0.34666 -0.75668 -0.60666 -1.15 -0.78 s-0.90334 -0.26 -1.53 -0.26 c-0.81334 0 -1.5033 0.26334 -2.07 0.79 s-0.85 1.2567 -0.85 2.19 l0 0.16 c0 0.76 0.19 1.41 0.57 1.95 s0.87666 1.0967 1.49 1.67 z M98.94 18.3 l-0.82002 0 c-0.46666 0.68 -1.2133 1.0267 -2.24 1.04 c-0.34666 0 -0.66 -0.04 -0.94 -0.12 l0 0.7 c0.28 0.05334 0.59334 0.08 0.94 0.08 c0.72 0 1.34 -0.14666 1.86 -0.44 s0.92 -0.71334 1.2 -1.26 z M107.30000000000001 6.140000000000001 c0 0.08 0.23666 0.84334 0.71 2.29 s0.99 3.03 1.55 4.75 s1.3133 3.9934 2.26 6.82 l0.86 0 l-5.3 -15.76 l-0.16 0 l-5.26 15.76 l0.82 0 z M106.94000000000001 15.52 l-0.72 0 l1.2 4.48 l0.72 0 z M122.26 4.58 l-0.000019531 11.56 c0 0.36 0.0066602 0.76 0.02 1.2 s0.02 0.66666 0.02 0.68 c-0.02666 -0.04 -0.12332 -0.25666 -0.28998 -0.65 s-0.33 -0.74334 -0.49 -1.05 l-0.28 -0.54 l-0.72 0 l2.2 4.22 l0.18 0 l0 -15.42 l-0.64 0 z M116.64 7.9399999999999995 l0.27998 0.54 l0.72 0 l-2.22 -4.24 l-0.14 0 l0 15.46 l0.62 0 l0 -11.6 c0 -0.33334 -0.0066602 -0.72334 -0.02 -1.17 s-0.02 -0.67666 -0.02 -0.69 c0.01334 0.04 0.10668 0.26 0.28002 0.66 s0.34 0.74666 0.5 1.04 z"></path></g></svg>
+<!--SVG Logo End-->
+
+            </div>
+            <!--<img src="assets/i/mylogo.png" class="logo" alt="My logo">-->
+			<!-- SVG Logo Start -->
+<svg width="307.9700119018555" height="39.49242579922323" viewBox="0 0 350 44.88212649137106" class="looka-1j8o68f"><defs id="SvgjsDefs1060"></defs><g id="SvgjsG1061" featurekey="A7DQL5-0" transform="matrix(2.847843386492224,0,0,2.847843386492224,0.000055676259444323156,-12.074748028261162)" fill="#111111"><path d="M5.86 4.5 l-0.000019531 -0.26 l-5.86 0 l0 0.64 l3.38 0 l0 15.12 l0.7 0 l0 -15.12 l1.8 0 c-0.02666 -0.21334 -0.03332 -0.34 -0.01998 -0.38 z M6.38 4.24 l0 0.64 l1.1 0 l0 -0.64 l-1.1 0 z M15.42 6.140000000000001 c0 0.08 0.23666 0.84334 0.71 2.29 s0.99 3.03 1.55 4.75 s1.3133 3.9934 2.26 6.82 l0.86 0 l-5.3 -15.76 l-0.16 0 l-5.26 15.76 l0.82 0 z M15.06 15.52 l-0.72 0 l1.2 4.48 l0.72 0 z M25.24 19.26 l-0.84 -0.000039062 l7.52 -14.92 l0 -0.1 l-1.68 0 c0 0.13334 -0.0033398 0.27668 -0.01 0.43002 s-0.01 0.25668 -0.01 0.31002 l0.7 0 l-7.52 14.9 l0 0.12 l1.84 0 l0 -0.74 z M26.619999999999997 4.24 l-1.08 0 l0 0.74 l1.08 0 l0 -0.33 l0 -0.41 z M29.479999999999997 19.25996 l0 0.74 l1.02 0 l0 -0.74 l-1.02 0 z M35.08 14.16 l0 -9.36 l4.8 0 l0 -0.56 l-5.36 0 l0 9.92 l0.56 0 z M40.08 20 l0 -0.54 l-5 0 l0 -4.14 l0.8 0 l0 -0.54 l-1.36 0 l0 5.22 l5.56 0 z M43.33999999999999 16.06 l0 -11.82 l-0.66 0 l0 11.82 l0.66 0 z M48.71999999999999 20 l0 -0.68 l-5.38 0 l0 -1.96 l-0.66 0 l0 2.64 l6.04 0 z M56.99999999999999 13.96 l0 -9.72 l-0.68 0 l0 15.76 l0.68 0 l0 -5.4 l0 -0.64 z M57.279999999999994 14.6 l5.84 0 l0 5.4 l0.68 0 l0 -11.62 l-0.68 0 l0 5.58 l-5.84 0 l0 0.64 z M73.39999999999999 20 c2.2134 0 4.1 -0.78 5.66 -2.34 c0.77334 -0.76 1.3567 -1.58 1.75 -2.46 s0.59 -1.88 0.59 -3 c0 -2.2266 -0.78 -4.1066 -2.34 -5.64 c-1.56 -1.52 -3.4866 -2.2866 -5.78 -2.3 c-1.4133 0.01334 -2.74 0.36668 -3.98 1.06 c-1.2133 0.70666 -2.18 1.6867 -2.9 2.94 l0.58 0.32 c0.65334 -1.16 1.54 -2.06 2.66 -2.7 c1.1067 -0.64 2.32 -0.96666 3.64 -0.98 c2.1334 0.01334 3.9066 0.72668 5.32 2.14 c1.4133 1.3867 2.1266 3.1066 2.14 5.16 c0 1.0267 -0.18 1.9433 -0.54 2.75 s-0.88666 1.5633 -1.58 2.27 c-1.4267 1.4267 -3.1666 2.14 -5.22 2.14 c-1.28 0 -2.44 -0.27334 -3.48 -0.82 l-0.3 0.58 c1.1333 0.58666 2.3934 0.88 3.78 0.88 z M86.08 11.02 l1.78 1.66 c0.56 0.52 1 1.0767 1.32 1.67 s0.48 1.19 0.48 1.79 l0 0.26 c0.01334 0.42666 -0.04 0.80666 -0.16 1.14 l0.74 0 c0.10666 -0.36 0.15332 -0.73334 0.13998 -1.12 l0 -0.28 c0 -0.72 -0.18334 -1.4067 -0.55 -2.06 s-0.87666 -1.2933 -1.53 -1.92 l-1.72 -1.62 c-0.54666 -0.52 -0.99666 -1.0067 -1.35 -1.46 s-0.53 -1.02 -0.53 -1.7 l0 -0.12 c0 -0.70666 0.19666 -1.2767 0.59 -1.71 s0.94334 -0.65 1.65 -0.65 c0.50666 0 0.92 0.07666 1.24 0.23 s0.64666 0.38334 0.98 0.69 l0.46 -0.52 c-0.37334 -0.34666 -0.75668 -0.60666 -1.15 -0.78 s-0.90334 -0.26 -1.53 -0.26 c-0.81334 0 -1.5033 0.26334 -2.07 0.79 s-0.85 1.2567 -0.85 2.19 l0 0.16 c0 0.76 0.19 1.41 0.57 1.95 s0.87666 1.0967 1.49 1.67 z M89.96 18.3 l-0.82002 0 c-0.46666 0.68 -1.2133 1.0267 -2.24 1.04 c-0.34666 0 -0.66 -0.04 -0.94 -0.12 l0 0.7 c0.28 0.05334 0.59334 0.08 0.94 0.08 c0.72 0 1.34 -0.14666 1.86 -0.44 s0.92 -0.71334 1.2 -1.26 z M95.06 11.02 l1.78 1.66 c0.56 0.52 1 1.0767 1.32 1.67 s0.48 1.19 0.48 1.79 l0 0.26 c0.01334 0.42666 -0.04 0.80666 -0.16 1.14 l0.74 0 c0.10666 -0.36 0.15332 -0.73334 0.13998 -1.12 l0 -0.28 c0 -0.72 -0.18334 -1.4067 -0.55 -2.06 s-0.87666 -1.2933 -1.53 -1.92 l-1.72 -1.62 c-0.54666 -0.52 -0.99666 -1.0067 -1.35 -1.46 s-0.53 -1.02 -0.53 -1.7 l0 -0.12 c0 -0.70666 0.19666 -1.2767 0.59 -1.71 s0.94334 -0.65 1.65 -0.65 c0.50666 0 0.92 0.07666 1.24 0.23 s0.64666 0.38334 0.98 0.69 l0.46 -0.52 c-0.37334 -0.34666 -0.75668 -0.60666 -1.15 -0.78 s-0.90334 -0.26 -1.53 -0.26 c-0.81334 0 -1.5033 0.26334 -2.07 0.79 s-0.85 1.2567 -0.85 2.19 l0 0.16 c0 0.76 0.19 1.41 0.57 1.95 s0.87666 1.0967 1.49 1.67 z M98.94 18.3 l-0.82002 0 c-0.46666 0.68 -1.2133 1.0267 -2.24 1.04 c-0.34666 0 -0.66 -0.04 -0.94 -0.12 l0 0.7 c0.28 0.05334 0.59334 0.08 0.94 0.08 c0.72 0 1.34 -0.14666 1.86 -0.44 s0.92 -0.71334 1.2 -1.26 z M107.30000000000001 6.140000000000001 c0 0.08 0.23666 0.84334 0.71 2.29 s0.99 3.03 1.55 4.75 s1.3133 3.9934 2.26 6.82 l0.86 0 l-5.3 -15.76 l-0.16 0 l-5.26 15.76 l0.82 0 z M106.94000000000001 15.52 l-0.72 0 l1.2 4.48 l0.72 0 z M122.26 4.58 l-0.000019531 11.56 c0 0.36 0.0066602 0.76 0.02 1.2 s0.02 0.66666 0.02 0.68 c-0.02666 -0.04 -0.12332 -0.25666 -0.28998 -0.65 s-0.33 -0.74334 -0.49 -1.05 l-0.28 -0.54 l-0.72 0 l2.2 4.22 l0.18 0 l0 -15.42 l-0.64 0 z M116.64 7.9399999999999995 l0.27998 0.54 l0.72 0 l-2.22 -4.24 l-0.14 0 l0 15.46 l0.62 0 l0 -11.6 c0 -0.33334 -0.0066602 -0.72334 -0.02 -1.17 s-0.02 -0.67666 -0.02 -0.69 c0.01334 0.04 0.10668 0.26 0.28002 0.66 s0.34 0.74666 0.5 1.04 z"></path></g></svg>
+<!--SVG Logo End-->
+
+         </div>
+    </div>
+<header id="header">
+    <div class="container">
+		<a href="index.html" id="logo">
+            <!--<img src="assets/i/mylogo.png" alt="Tazel Hossan">-->
+			<!-- SVG Logo Start -->
+<svg width="307.9700119018555" height="39.49242579922323" viewBox="0 0 350 44.88212649137106" class="looka-1j8o68f"><defs id="SvgjsDefs1060"></defs><g id="SvgjsG1061" featurekey="A7DQL5-0" transform="matrix(2.847843386492224,0,0,2.847843386492224,0.000055676259444323156,-12.074748028261162)" fill="#111111"><path d="M5.86 4.5 l-0.000019531 -0.26 l-5.86 0 l0 0.64 l3.38 0 l0 15.12 l0.7 0 l0 -15.12 l1.8 0 c-0.02666 -0.21334 -0.03332 -0.34 -0.01998 -0.38 z M6.38 4.24 l0 0.64 l1.1 0 l0 -0.64 l-1.1 0 z M15.42 6.140000000000001 c0 0.08 0.23666 0.84334 0.71 2.29 s0.99 3.03 1.55 4.75 s1.3133 3.9934 2.26 6.82 l0.86 0 l-5.3 -15.76 l-0.16 0 l-5.26 15.76 l0.82 0 z M15.06 15.52 l-0.72 0 l1.2 4.48 l0.72 0 z M25.24 19.26 l-0.84 -0.000039062 l7.52 -14.92 l0 -0.1 l-1.68 0 c0 0.13334 -0.0033398 0.27668 -0.01 0.43002 s-0.01 0.25668 -0.01 0.31002 l0.7 0 l-7.52 14.9 l0 0.12 l1.84 0 l0 -0.74 z M26.619999999999997 4.24 l-1.08 0 l0 0.74 l1.08 0 l0 -0.33 l0 -0.41 z M29.479999999999997 19.25996 l0 0.74 l1.02 0 l0 -0.74 l-1.02 0 z M35.08 14.16 l0 -9.36 l4.8 0 l0 -0.56 l-5.36 0 l0 9.92 l0.56 0 z M40.08 20 l0 -0.54 l-5 0 l0 -4.14 l0.8 0 l0 -0.54 l-1.36 0 l0 5.22 l5.56 0 z M43.33999999999999 16.06 l0 -11.82 l-0.66 0 l0 11.82 l0.66 0 z M48.71999999999999 20 l0 -0.68 l-5.38 0 l0 -1.96 l-0.66 0 l0 2.64 l6.04 0 z M56.99999999999999 13.96 l0 -9.72 l-0.68 0 l0 15.76 l0.68 0 l0 -5.4 l0 -0.64 z M57.279999999999994 14.6 l5.84 0 l0 5.4 l0.68 0 l0 -11.62 l-0.68 0 l0 5.58 l-5.84 0 l0 0.64 z M73.39999999999999 20 c2.2134 0 4.1 -0.78 5.66 -2.34 c0.77334 -0.76 1.3567 -1.58 1.75 -2.46 s0.59 -1.88 0.59 -3 c0 -2.2266 -0.78 -4.1066 -2.34 -5.64 c-1.56 -1.52 -3.4866 -2.2866 -5.78 -2.3 c-1.4133 0.01334 -2.74 0.36668 -3.98 1.06 c-1.2133 0.70666 -2.18 1.6867 -2.9 2.94 l0.58 0.32 c0.65334 -1.16 1.54 -2.06 2.66 -2.7 c1.1067 -0.64 2.32 -0.96666 3.64 -0.98 c2.1334 0.01334 3.9066 0.72668 5.32 2.14 c1.4133 1.3867 2.1266 3.1066 2.14 5.16 c0 1.0267 -0.18 1.9433 -0.54 2.75 s-0.88666 1.5633 -1.58 2.27 c-1.4267 1.4267 -3.1666 2.14 -5.22 2.14 c-1.28 0 -2.44 -0.27334 -3.48 -0.82 l-0.3 0.58 c1.1333 0.58666 2.3934 0.88 3.78 0.88 z M86.08 11.02 l1.78 1.66 c0.56 0.52 1 1.0767 1.32 1.67 s0.48 1.19 0.48 1.79 l0 0.26 c0.01334 0.42666 -0.04 0.80666 -0.16 1.14 l0.74 0 c0.10666 -0.36 0.15332 -0.73334 0.13998 -1.12 l0 -0.28 c0 -0.72 -0.18334 -1.4067 -0.55 -2.06 s-0.87666 -1.2933 -1.53 -1.92 l-1.72 -1.62 c-0.54666 -0.52 -0.99666 -1.0067 -1.35 -1.46 s-0.53 -1.02 -0.53 -1.7 l0 -0.12 c0 -0.70666 0.19666 -1.2767 0.59 -1.71 s0.94334 -0.65 1.65 -0.65 c0.50666 0 0.92 0.07666 1.24 0.23 s0.64666 0.38334 0.98 0.69 l0.46 -0.52 c-0.37334 -0.34666 -0.75668 -0.60666 -1.15 -0.78 s-0.90334 -0.26 -1.53 -0.26 c-0.81334 0 -1.5033 0.26334 -2.07 0.79 s-0.85 1.2567 -0.85 2.19 l0 0.16 c0 0.76 0.19 1.41 0.57 1.95 s0.87666 1.0967 1.49 1.67 z M89.96 18.3 l-0.82002 0 c-0.46666 0.68 -1.2133 1.0267 -2.24 1.04 c-0.34666 0 -0.66 -0.04 -0.94 -0.12 l0 0.7 c0.28 0.05334 0.59334 0.08 0.94 0.08 c0.72 0 1.34 -0.14666 1.86 -0.44 s0.92 -0.71334 1.2 -1.26 z M95.06 11.02 l1.78 1.66 c0.56 0.52 1 1.0767 1.32 1.67 s0.48 1.19 0.48 1.79 l0 0.26 c0.01334 0.42666 -0.04 0.80666 -0.16 1.14 l0.74 0 c0.10666 -0.36 0.15332 -0.73334 0.13998 -1.12 l0 -0.28 c0 -0.72 -0.18334 -1.4067 -0.55 -2.06 s-0.87666 -1.2933 -1.53 -1.92 l-1.72 -1.62 c-0.54666 -0.52 -0.99666 -1.0067 -1.35 -1.46 s-0.53 -1.02 -0.53 -1.7 l0 -0.12 c0 -0.70666 0.19666 -1.2767 0.59 -1.71 s0.94334 -0.65 1.65 -0.65 c0.50666 0 0.92 0.07666 1.24 0.23 s0.64666 0.38334 0.98 0.69 l0.46 -0.52 c-0.37334 -0.34666 -0.75668 -0.60666 -1.15 -0.78 s-0.90334 -0.26 -1.53 -0.26 c-0.81334 0 -1.5033 0.26334 -2.07 0.79 s-0.85 1.2567 -0.85 2.19 l0 0.16 c0 0.76 0.19 1.41 0.57 1.95 s0.87666 1.0967 1.49 1.67 z M98.94 18.3 l-0.82002 0 c-0.46666 0.68 -1.2133 1.0267 -2.24 1.04 c-0.34666 0 -0.66 -0.04 -0.94 -0.12 l0 0.7 c0.28 0.05334 0.59334 0.08 0.94 0.08 c0.72 0 1.34 -0.14666 1.86 -0.44 s0.92 -0.71334 1.2 -1.26 z M107.30000000000001 6.140000000000001 c0 0.08 0.23666 0.84334 0.71 2.29 s0.99 3.03 1.55 4.75 s1.3133 3.9934 2.26 6.82 l0.86 0 l-5.3 -15.76 l-0.16 0 l-5.26 15.76 l0.82 0 z M106.94000000000001 15.52 l-0.72 0 l1.2 4.48 l0.72 0 z M122.26 4.58 l-0.000019531 11.56 c0 0.36 0.0066602 0.76 0.02 1.2 s0.02 0.66666 0.02 0.68 c-0.02666 -0.04 -0.12332 -0.25666 -0.28998 -0.65 s-0.33 -0.74334 -0.49 -1.05 l-0.28 -0.54 l-0.72 0 l2.2 4.22 l0.18 0 l0 -15.42 l-0.64 0 z M116.64 7.9399999999999995 l0.27998 0.54 l0.72 0 l-2.22 -4.24 l-0.14 0 l0 15.46 l0.62 0 l0 -11.6 c0 -0.33334 -0.0066602 -0.72334 -0.02 -1.17 s-0.02 -0.67666 -0.02 -0.69 c0.01334 0.04 0.10668 0.26 0.28002 0.66 s0.34 0.74666 0.5 1.04 z"></path></g></svg>
+<!--SVG Logo End-->
+
+        </a>
+        <nav id="secondary-nav">
+                            <ul>
+								<li><a href="index.html" >HOME</a></li>
+								<li><a href="contact-us/index.html" >CONTACT</a></li>
+								<li><a href="account/Register.html" >REGISTER</a></li>
+								<li><a href="payment/index.html" >PAYMENT</a></li>
+						</ul>
+         </nav> 
+</header>
+<div id="all">
+        <div id="main-screen">
+	   <div class="container">
+        <div class="sub-box">
+            <div class="we-are-text">
+                <p><a href="payment/index.html">PAYMENT </a><svg width="21" height="20" viewBox="0 0 21 20" fill="none" class="separator"><line opacity="0.3" x1="1.29289" y1="19.2929" x2="19.6777" y2="0.908117" stroke="#8691A8" stroke-width="2"/></svg><a href="account/Register.html" > REGISTER</a><svg width="21" height="20" viewBox="0 0 21 20" fill="none" class="separator"><line opacity="0.3" x1="1.29289" y1="19.2929" x2="19.6777" y2="0.908117" stroke="#8691A8" stroke-width="2"/></svg><a href="contact-us/index.html" > CONTACT</a></p>
+            </div>
+            <div class="slogan-text">
+                <div class="text-item">
+                     <p class="sub-text">Artificial</p>
+                    <p class="h1">fake</p>
+                </div>
+                <div class="text-item">
+                    <p class="sub-text">Immune</p>
+                    <p class="h1">news</p>
+                </div>
+                <div class="text-item">
+                    <p class="h1">identification</p>
+                    <p class="sub-text">System</p>
+                </div>
+            </div>
+        </div>
+        <span class="js-scroll-screen">Scroll</span>
+    </div>
+    <div class="bg">
+        <video class="video" autoplay loop muted playsinline>
+            <source src="video/main-screen-video.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<section class="section what-we-do-section js-view-checker" data-vp-offset="10%">
+    <div class="container">
+        <p class="h2">Fake News Classifier on Text News.</p>
+        <div class="description-grid">
+            <div class="title-box">
+                <p class="h6">What founds here</p>
+            </div>
+            <div class="text-box">
+                <div class="important-text">
+                    <p>
+					It is important to identify the fake news from the real true news. The problem has been taken over and resolved with the help of Natural Language Processing tools which help us identify fake or true news based on historical data. The news is now in safe hands!
+					</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+<section class="section applications-section js-view-checker" data-vp-offset="40%">
+    <div class="container">
+        <p class="h6">Applications of Artificial Intelligence</p>
+        <div class="main-text-slider-box large-width js-view-checker">
+            <div class="main-text-bullets-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="main-text-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-bullet="Healthtech">
+                            <p class="h2">Healthtech</p>
+                            <div class="important-text">
+                                <p>Helping health IT companies and providers navigate the shift to value-based care with confidence.</p>
+                            </div>
+                            <div class="text-grid three-col">
+                                <div class="col">
+                                    <p><b>Image processing and analysis:</b> Help doctors reduce their diagnostic workloads, improve accuracy, detect life-threatening conditions earlier, and more.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Speech rehabilitation:</b> Enable speech-language therapists to study, diagnose, and treat communication disorders more effectively.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Genome analysis:</b> Unlock lower sequencing costs and the ability to analyze larger volumes of data while trying to better understand causes and novel variations of rare diseases.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Natural language processing:</b> Improve the accuracy and integrity of electronic health records by turning clinical notes from disparate sources into unified, structured data.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Predictive analytics:</b> Analyze clinical data and PGHD to identify trends in care delivery outcomes, treatment progress, costs, staff performance, and more.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-bullet="Fintech">
+                            <p class="h2">Fintech</p>
+                            <div class="important-text">
+                                <p>We are enabling forward-thinking financial institutions and startups to reinvent customer experiences without shaking the foundations.</p>
+                            </div>
+                            <div class="text-grid three-col">
+                                <div class="col">
+                                    <p><b>Antimoney laundering:</b> Better understand customer data, identify changes in customer behavior on time, automate KYC procedures, reduce false positives, and more.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Fraud detection:</b> Automatically detect intricate patterns while minimizing human error and time-consuming tasks; allow fraud analysts to focus on severe cases.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Robotic process automation:</b> Automate repetitive, high-volume, and rule-based work, such as KYC/AML, customer onboarding, invoice delivery, data entry, and more.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Credit valuation adjustment:</b> Perform CVA calculations and get results faster while solving scaling and latency issues and keeping costs at bay.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-bullet="Mobility">
+                            <p class="h2">Mobility</p>
+                            <div class="important-text">
+                                <p>Allowing businesses and cities to embrace this new trend while streamlining collaboration, workflows, and services.</p>
+                            </div>
+                            <div class="text-grid three-col">
+                                <div class="col">
+                                    <p><b>Aviation systems:</b> Help aircrews automate routine jobs, timely and fully execute checklists, and continuously analyze parameters such as altitude, direction, and speed, in real time.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Urban mobility:</b> Provide increased safety, availability, comfort, and performance of city infrastructure to power individuals, municipalities, and companies.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Predictive analytics:</b> Improve mobility services by analyzing big data and predicting movements of people, vehicles, and assets.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Digital twins:</b> Collect massive amounts of big data from connected cars and replicate it in a digital model for more accurate analysis, prediction, and planning.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-bullet="Smart cities">
+                            <p class="h2">Smart cities</p>
+                            <div class="important-text">
+                                <p>Improving urban life and governance through the winning combination of digital solutions, IoT, and rich analytics.</p>
+                            </div>
+                            <div class="text-grid three-col">
+                                <div class="col">
+                                    <p><b>Video surveillance:</b> Leverage AI algorithms while analyzing video data to detect situational anomalies, prevent crime, manage traffic, and more.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Mobility:</b> Unlock next-gen mobility solutions to improve public transportation, fleet management, route planning, city parking, traffic management, and more.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Energy management:</b> Record, aggregate, analyze, and visualize all energy-related data for improved performance, maintenance, and cost-efficiency.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Traffic management:</b> Analyze traffic density, optimize traffic lights, reduce waiting time at intersections, prevent road congestion, re-route traffic in emergency situations, and more.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Predictive analytics:</b> Build models of city infrastructure, estimate resources, and predict crime, traffic, and public transport usage.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-bullet="Smart machines">
+                            <p class="h2">Smart machines</p>
+                            <div class="important-text">
+                                <p>Implementing self-driving cars, robots, and other cognitive computing systems that complete tasks and make intelligent decisions without human intervention.</p>
+                            </div>
+                            <div class="text-grid three-col">
+                                <div class="col">
+                                    <p><b>Digital twins:</b> Create virtual models of products, services, or processes to prevent downtime and failure, as well as discover new opportunities.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Predictive maintenance:</b> Analyze real-time and historical data to determine when a machine or a system will need to be serviced proactively, before it breaks down.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Connected cars:</b> Enable businesses and customers to benefit from cars connected to the city infrastructure, such as roads, traffic lights, and buildings.</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Simultaneous localization and mapping:</b> Get the most out of sensor data and sophisticated SLAM algorithms to let robots build their own maps in unknown surroundings</p>
+                                </div>
+                                <div class="col">
+                                    <p><b>Sensor fusion:</b> Merge data collected from sensors such as video, lidars, and radars to help machines navigate and perform tasks with more certainty and precision.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<section class="section technologies-section">
+    <div class="container">
+        <div class="bg-links-items-box">
+            <p class="h6">Outlines</p>
+            <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#data-science-anchor" class="js-ajax-link">Introduction</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					News media has become a channel to pass on the information of what’s happening in the world to the people living. Often people perceive whatever conveyed in the news to be true. There were circumstances where even the news channels acknowledged that their news is not true as they wrote. But some news has a significant impact not only on the people or government but also on the economy. One news can shift the curves up and down depending on the emotions of people and political situation.			
+					</p>
+                </div>
+            </div>
+            <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#big-data-anchor" class="js-ajax-link">Problem statement</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                   	<p>
+					
+					The authenticity of Information has become a longstanding issue affecting businesses and society, both for printed and digital media. On social networks, the reach and effects of information spread occur at such a fast pace and so amplified that distorted, inaccurate, or false information acquires a tremendous potential to cause real-world impacts, within minutes, for millions of users. Recently, several public concerns about this problem and some approaches to mitigate the problem were expressed.
+<br><br>
+The sensationalism of not-so-accurate eye-catching and intriguing headlines aimed at retaining the attention of audiences to sell information has persisted all throughout the history of all kinds of information broadcast. On social networking websites, the reach and effects of information spread are however significantly amplified and occur at such a fast pace, that distorted, inaccurate, or false information acquires a tremendous potential to cause real impacts, within minutes, for millions of users.
+					</p>
+
+				</div>
+            </div>
+            <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Objective</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					1. Our sole objective is to classify the news from the dataset as fake or true news. <br>
+2. Extensive EDA of news. <br>
+3. Selecting and building a powerful model for classification. <br>
+					</p>
+				</div>
+            </div>
+            <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#computer-vision-anchor" class="js-ajax-link">Import Libraries</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					
+					Let’s import all necessary libraries for the analysis and along with it let’s bring down our dataset.
+					</p>
+					
+<style>
+        /* Pygments style for syntax highlighting */
+        .highlight { background: #f8f8f8; }
+        .highlight .hll { background-color: #ffffcc }
+        .highlight  { background: #f8f8f8; }
+        .highlight .c { color: #408080; font-style: italic } /* Comment */
+        .highlight .err { border: 1px solid #FF0000 } /* Error */
+        .highlight .k { color: #008000; font-weight: bold } /* Keyword */
+        .highlight .o { color: #666666 } /* Operator */
+        .highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+        .highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+        .highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+        .highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+        .highlight .gd { color: #A00000 } /* Generic.Deleted */
+        .highlight .ge { font-style: italic } /* Generic.Emph */
+        .highlight .gr { color: #FF0000 } /* Generic.Error */
+        .highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+        .highlight .gi { color: #00A000 } /* Generic.Inserted */
+        .highlight .go { color: #808080 } /* Generic.Output */
+        .highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+        .highlight .gs { font-weight: bold } /* Generic.Strong */
+        .highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+        .highlight .gt { color: #0044DD } /* Generic.Traceback */
+        .highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+        .highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+        .highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+        .highlight .kp { color: #008000 } /* Keyword.Pseudo */
+        .highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+        .highlight .kt { color: #B00040 } /* Keyword.Type */
+        .highlight .m { color: #666666 } /* Literal.Number */
+        .highlight .s { color: #BA2121 } /* Literal.String */
+        .highlight .na { color: #687822 } /* Name.Attribute */
+        .highlight .nb { color: #008000 } /* Name.Builtin */
+        .highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+        .highlight .no { color: #880000 } /* Name.Constant */
+        .highlight .nd { color: #AA22FF } /* Name.Decorator */
+        .highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+        .highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+        .highlight .nf { color: #0000FF } /* Name.Function */
+        .highlight .nl { color: #A0A000 } /* Name.Label */
+        .highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+        .highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+        .highlight .nv { color: #19177C } /* Name.Variable */
+        .highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+        .highlight .w { color: #bbbbbb } /* Text.Whitespace */
+        .highlight .mb { color: #666666 } /* Literal.Number.Bin */
+        .highlight .mf { color: #666666 } /* Literal.Number.Float */
+        .highlight .mh { color: #666666 } /* Literal.Number.Hex */
+        .highlight .mi { color: #666666 } /* Literal.Number.Integer */
+        .highlight .mo { color: #666666 } /* Literal.Number.Oct */
+        .highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+        .highlight .sc { color: #BA2121 } /* Literal.String.Char */
+        .highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+        .highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+        .highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+        .highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+        .highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+        .highlight .sx { color: #008000 } /* Literal.String.Other */
+        .highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+        .highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+        .highlight .ss { color: #19177C } /* Literal.String.Symbol */
+        .highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+        .highlight .vc { color: #19177C } /* Name.Variable.Class */
+        .highlight .vg { color: #19177C } /* Name.Variable.Global */
+        .highlight .vi { color: #19177C } /* Name.Variable.Instance */
+        .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
+    </style>
+
+    <pre class="highlight"><code>
+<span class="c"># Basic libraries</span> 
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span> 
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span> 
+
+# Visualization libraries
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span> 
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">rcParams</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="kn">as</span> <span class="nn">sns</span>
+<span class="kn">from</span> <span class="nn">textblob</span> <span class="kn">import</span> <span class="n">TextBlob</span>
+<span class="kn">from</span> <span class="nn">plotly</span> <span class="kn">import</span> <span class="n">tools</span>
+<span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="kn">as</span> <span class="nn">go</span>
+<span class="kn">from</span> <span class="nn">plotly.offline</span> <span class="kn">import</span> <span class="n">iplot</span>
+<span class="o">%</span><span class="kn">matplotlib</span> <span class="kn">inline</span>
+<span class="n">plt.rcParams</span><span class="p">[</span><span class="s1">'figure.figsize'</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+<span class="kn">import</span> <span class="nn">cufflinks</span> <span class="kn">as</span> <span class="nn">cf</span>
+<span class="n">cf.go_offline</span><span class="p">()</span>
+<span class="n">cf.set_config_file</span><span class="p">(</span><span class="n">offline</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">world_readable</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+# NLTK libraries
+<span class="kn">import</span> <span class="nn">nltk</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">string</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">stopwords</span>
+<span class="kn">from</span> <span class="nn">wordcloud</span> <span class="kn">import</span> <span class="n">WordCloud</span><span class="p">,</span><span class="n">STOPWORDS</span>
+<span class="kn">from</span> <span class="nn">nltk.stem.porter</span> <span class="kn">import</span> <span class="n">PorterStemmer</span>
+<span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span>
+<span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">CountVectorizer</span>
+
+# Machine Learning libraries
+<span class="kn">import</span> <span class="nn">sklearn</span> 
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">GridSearchCV</span>
+<span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span>
+<span class="kn">from</span> <span class="nn">sklearn.tree</span> <span class="kn">import</span> <span class="n">DecisionTreeClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.naive_bayes</span> <span class="kn">import</span> <span class="n">MultinomialNB</span> 
+<span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+
+# Metrics libraries
+<span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">metrics</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">classification_report</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">cross_val_score</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">roc_auc_score</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">roc_curve</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">confusion_matrix</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span>
+
+# Miscellaneous libraries
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+
+# Ignore warnings
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="n">warnings.filterwarnings</span><span class="p">(</span><span class="s1">'ignore'</span><span class="p">)</span>
+
+# Deep learning libraries
+<span class="kn">from</span> <span class="nn">tensorflow.keras.layers</span> <span class="kn">import</span> <span class="n">Embedding</span>
+<span class="kn">from</span> <span class="nn">tensorflow.keras.preprocessing.sequence</span> <span class="kn">import</span> <span class="n">pad_sequences</span>
+<span class="kn">from</span> <span class="nn">tensorflow.keras.models</span> <span class="kn">import</span> <span class="n">Sequential</span>
+<span class="kn">from</span> <span class="nn">tensorflow.keras.preprocessing.text</span> <span class="kn">import</span> <span class="n">one_hot</span>
+<span class="kn">from</span> <span class="nn">tensorflow.keras.layers</span> <span class="kn">import</span> <span class="n">LSTM</span>
+<span class="kn">from</span> <span class="nn">tensorflow.keras.layers</span> <span class="kn">import</span> <span class="n">Bidirectional</span>
+<span class="kn">from</span> <span class="nn">tensorflow.keras.layers</span> <span class="kn">import</span> <span class="n">Dense</span>
+<span class="kn">from</span> <span class="nn">tensorflow.keras.layers</span> <span class="kn">import</span> <span class="n">Dropout</span>
+</code></pre>
+					
+					</div>
+            </div>
+            <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#language-processing-anchor" class="js-ajax-link">Importing the dataset</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Let’s welcome our dataset and see what’s inside the box
+					
+					</p>
+					
+					
+					<pre class="highlight"><code>
+# reading the fake and true datasets
+<span class="n">fake_news</span> <span class="o">=</span> <span class="n">pd.read_csv</span><span class="p">(</span><span class="s1">'../input/fake-and-real-news-dataset/Fake.csv'</span><span class="p">)</span>
+<span class="n">true_news</span> <span class="o">=</span> <span class="n">pd.read_csv</span><span class="p">(</span><span class="s1">'../input/fake-and-real-news-dataset/True.csv'</span><span class="p">)</span>
+
+# print shape of fake dataset with rows and columns and information 
+<span class="n">print</span> <span class="p">(</span><span class="s1">"The shape of the  data is (row, column):"</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">fake_news.shape</span><span class="p">))</span>
+<span class="n">print</span> <span class="p">(</span><span class="n">fake_news.info</span><span class="p">())</span>
+<span class="n">print</span><span class="p">(</span><span class="s2">"\n --------------------------------------- \n"</span><span class="p">)</span>
+
+# print shape of true dataset with rows and columns and information
+<span class="n">print</span> <span class="p">(</span><span class="s1">"The shape of the  data is (row, column):"</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">true_news.shape</span><span class="p">))</span>
+<span class="n">print</span> <span class="p">(</span><span class="n">true_news.info</span><span class="p">())</span>
+</code></pre>
+					</div>
+            </div>
+			
+			
+		<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Dataset Details</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					This metadata has 2 CSV files where one dataset contains fake news and the other contains true/real news and has nearly 23481 fake news and 21417 true news
+<br>
+Description of columns in the file:<br>
+
+1. title- contains news headlines<br>
+2. text- contains news content/article<br>
+3. subject- the type of news<br>
+4. date- the date the news was published<br>
+					</p>
+				</div>
+</div>
+
+<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Preprocessing and Cleaning</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					We have to perform certain pre-processing steps before performing EDA and giving the data to the model. Let’s begin with creating the output column
+					</p>
+				</div>
+
+</div>
+
+
+            <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Creating the target column</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Let’s create the target column for both fake and true news. Here we are gonna denote the target value as ‘0’ in case of fake news and ‘1’ in case of true news
+					</p>
+					<pre class="highlight"><code>
+# Target variable for fake news
+<span class="n">fake_news</span><span class="p">[</span><span class="s1">'output'</span><span class="p">]</span><span class="o">=</span><span class="mi">0</span>
+
+# Target variable for true news
+<span class="n">true_news</span><span class="p">[</span><span class="s1">'output'</span><span class="p">]</span><span class="o">=</span><span class="mi">1</span>
+</code></pre>
+					
+				</div>
+            </div>
+
+
+				
+			
+			
+			 <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Concatenating title and text of news</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					News has to be classified based on the tile and text jointly. Treating the title and content of news separately doesn’t reap any benefit. So, let’s concatenate both the columns in both datasets
+					</p>
+					<pre class="highlight"><code>
+# Concatenating and dropping for fake news
+<span class="n">fake_news</span><span class="p">[</span><span class="s1">'news'</span><span class="p">]</span><span class="o">=</span><span class="n">fake_news</span><span class="p">[</span><span class="s1">'title'</span><span class="p">]</span><span class="o">+</span><span class="n">fake_news</span><span class="p">[</span><span class="s1">'text'</span><span class="p">]</span>
+<span class="n">fake_news</span><span class="o">=</span><span class="n">fake_news.drop</span><span class="p">([</span><span class="s1">'title'</span><span class="p">,</span> <span class="s1">'text'</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+# Concatenating and dropping for true news
+<span class="n">true_news</span><span class="p">[</span><span class="s1">'news'</span><span class="p">]</span><span class="o">=</span><span class="n">true_news</span><span class="p">[</span><span class="s1">'title'</span><span class="p">]</span><span class="o">+</span><span class="n">true_news</span><span class="p">[</span><span class="s1">'text'</span><span class="p">]</span>
+<span class="n">true_news</span><span class="o">=</span><span class="n">true_news.drop</span><span class="p">([</span><span class="s1">'title'</span><span class="p">,</span> <span class="s1">'text'</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+# Rearranging the columns
+<span class="n">fake_news</span> <span class="o">=</span> <span class="n">fake_news</span><span class="p">[[</span><span class="s1">'subject'</span><span class="p">,</span> <span class="s1">'date'</span><span class="p">,</span> <span class="s1">'news'</span><span class="p">,</span><span class="s1">'output'</span><span class="p">]]</span>
+<span class="n">true_news</span> <span class="o">=</span> <span class="n">true_news</span><span class="p">[[</span><span class="s1">'subject'</span><span class="p">,</span> <span class="s1">'date'</span><span class="p">,</span> <span class="s1">'news'</span><span class="p">,</span><span class="s1">'output'</span><span class="p">]]</span>
+</code></pre>
+
+				</div>
+            </div>
+			
+			
+			
+			 <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Converting the date columns to datetime format</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					We can use pd.datetime to convert our date columns to date format we desire. But there was a problem, especially in fake_news date column. Let’s check the value_counts() to see what lies inside
+					
+					</p>
+					
+					<pre class="highlight"><code>
+<span class="n">fake_news</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+</code></pre>
+<p>
+If you notice, we had links and news headlines inside the date column which can give us trouble when converting to datetime format. So let’s remove those records from the column.
+</p>
+<pre class="highlight"><code>
+<span class="c"># Removing links and the headline from the date column</span>
+<span class="n">fake_news</span> <span class="o">=</span> <span class="n">fake_news</span><span class="p">[</span><span class="o">~</span><span class="n">fake_news</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s2">"http"</span><span class="p">)]</span>
+<span class="n">fake_news</span> <span class="o">=</span> <span class="n">fake_news</span><span class="p">[</span><span class="o">~</span><span class="n">fake_news</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s2">"HOST"</span><span class="p">)]</span>
+
+<span class="c">'''You can also execute the below code to get the result </span>
+<span class="c">which allows only string which has the months and rest are filtered'''</span>
+<span class="c"># fake_news=fake_news[fake_news.date.str.contains("Jan|Feb|Mar|Apr|May|<br>Jun|Jul|Aug|Sep|Oct|Nov|Dec")]</span>
+</code></pre>
+
+<p>
+Only the fake news dataset had an issue with the date column. Now let’s proceed with converting the date column to datetime format
+</p>
+<pre class="highlight"><code>
+<span class="c"># Converting the date to datetime format</span>
+<span class="n">fake_news</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">fake_news</span><span class="p">[</span><span class="s1">'date'</span><span class="p">])</span>
+<span class="n">true_news</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">true_news</span><span class="p">[</span><span class="s1">'date'</span><span class="p">])</span>
+</code></pre>
+
+
+				</div>
+            </div>
+			
+			
+			 <div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Appending two datasets</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					When we are providing a dataset for the model, we have to provide it as a single file. So it’s better to append both true and fake news data and preprocess it further and perform EDA
+					</p>
+					
+					<pre class="highlight"><code>
+frames = [fake_news, true_news]
+news_dataset = pd.concat(frames)
+</code></pre>
+
+				</div>
+            </div>
+			
+			
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Text Processing</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					This is an important phase for any text analysis application. There will be much un-useful content in the news which can be an obstacle when feeding to a machine learning model. Unless we remove them the machine learning model doesn’t work efficiently. Let’s go step by step.
+					</p>
+					
+					
+				</div>
+            </div>
+			
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">News-Punctuation Cleaning</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Let’s begin our text processing by removing the punctuations
+					</p>
+					<pre class="highlight"><code>
+<span class="c1"># Creating a copy</span>
+<span class="n">clean_news</span> <span class="o">=</span> <span class="n">news_dataset</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">review_cleaning</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="sd">'''Make text lowercase, remove text in square brackets, remove links,</span>
+<span class="sd">    remove punctuation, and remove words containing numbers.'''</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">text</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">'\[.*?\]'</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">'https?://\S+|www\.\S+'</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">'&lt;.*?&gt;+'</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s2">"[{}]"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">string</span><span class="o">.</span><span class="n">punctuation</span><span class="p">)),</span> <span class="s1">''</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">'\n'</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">'\w*\d\w*'</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">text</span>
+
+<span class="n">clean_news</span><span class="p">[</span><span class="s1">'news'</span><span class="p">]</span> <span class="o">=</span> <span class="n">clean_news</span><span class="p">[</span><span class="s1">'news'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">review_cleaning</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+
+<span class="n">clean_news</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</code></pre>
+
+					<p>
+					We have removed all punctuation in our news column.
+					</p>
+				</div>
+            </div>
+			
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">News-Stop words</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					A stop word is a commonly used word (such as “the”, “a”, “an”, “in”) that a search engine has been programmed to ignore, both when indexing entries for searching and when retrieving them as the result of a search query. We would not want these words to take up space in our database, or taking up the valuable processing time. For this, we can remove them easily, by storing a list of words that you consider to stop words. NLTK(Natural Language Toolkit) in python has a list of stopwords stored in 16 different languages. Source: Geeks for Geeks
+<br>
+For our project, we are considering the English stop words and removing those words
+					</p>
+					<pre class="highlight"><code>
+<span class="c"># Removing stopwords</span>
+<span class="k">stop</span> <span class="o">=</span> <span class="n">stopwords</span><span class="o">.</span><span class="n">words</span><span class="p">(</span><span class="s1">'english'</span><span class="p">)</span>
+<span class="n">clean_news</span><span class="p">[</span><span class="s1">'news'</span><span class="p">]</span> <span class="o">=</span> <span class="n">clean_news</span><span class="p">[</span><span class="s1">'news'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="s1">' '.join</span><span class="p">([</span><span class="n">word</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">x</span><span class="o">.</span><span class="n">split</span><span class="p">()</span> <span class="k">if</span> <span class="n">word</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">(</span><span class="n">stop</span><span class="p">)]))</span>
+<span class="n">clean_news</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</code></pre>
+
+					<p>
+					We have removed all the stop words in the review column.
+					</p>
+				</div>
+            </div>
+			
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Story Generation and Visualization from news</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					In this section, we will complete do exploratory data analysis on news such as ngram analysis and understand which are all the words, context which is most likely found in fake news.
+
+Important note: Please check my kaggle notebook to find the coding part of the plots
+					</p>
+					
+					
+				</div>
+            </div>
+			
+			
+			
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Count of the news subject</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Let’s start by looking at the count of news types in our dataset
+					</p>
+					
+					<p>
+					Insights:<br>
+
+1. Our dataset has more political news than any other news followed by world news<br>
+2. We have some repeated class names which express the same meaning such as news, politics, government news, etc which is similar to the alternative
+</p>
+				</div>
+            </div>
+			
+			
+					
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Count of fake news and true news</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Let’s check the count of fake and true news and confirm whether our data is balanced or not
+					</p>
+					
+					<p>
+					Insights:<br>
+
+1. We have a pretty much-balanced data <br>
+2. But the count of fake news is higher than the true news but not to a greater extent
+</p>
+				</div>
+            </div>
+			
+						
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Deriving new features from the news</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Let’s extract more features from the news feature such as<br>
+
+1. Polarity: The measure which signifies the sentiment of the news
+2. Review length: Length of the news(number of letters and spaces)
+3. Word Count: Number of words in the news
+					</p>
+					<p>
+					Polarity,Review length and wordcount<br>
+Insights:<br>
+
+1. Most of the polarity is neutral, neither it shows some bad news nor much happy news<br>
+2. The word count is between 0–1000 and the length of the news are between 0–5000 and a few near 10000 words which could be an article<br>
+
+</p>
+					
+				</div>
+            </div>
+			
+						
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">N-gram analysis</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					
+					</p>
+					
+					
+				</div>
+            </div>
+			
+						
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Top 20 words in News</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Let’s look at the top 20 words from the news which could give us a brief idea of what news are popular in our dataset
+					</p>
+					
+					<p>
+					Insights:<br>
+
+1. All the top 20 news are about the US government<br>
+2. Especially it’s about Trump and the US followed by Obama<br>
+3. We can understand that the news is from Reuters.
+</p>
+				</div>
+            </div>
+			
+						
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Top 2 words in the news</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Now let’s expand our search to the top 2 words from the news
+					</p>
+					<p>
+					Insights:<br>
+
+1. As feared, I think the model will be biased in its results considering the amount of trump news<br>
+2. We can see the North Korea news as well, I think it will be about the dispute between the US and NK<br>
+3. There is also some news from fox news as well
+</p>
+					
+				</div>
+            </div>
+			
+						
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Top 3 words in the news</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Now let’s expand our search to the top 3 words from the news
+					</p>
+					
+					<p>
+					Insights:<br>
+
+1. There is important news that ruled the US media-’Black lives matter’ post the demise of Floyd. We can see that news has been covered in our data. There was a lot of fake news revolved around death.<br>
+2. The rest of the news is about US politics
+</p>
+					
+				</div>
+            </div>
+			
+						
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">WordCloud of Fake and True News</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Let’s look at the word cloud for both fake and true news
+					</p>
+					
+					
+				</div>
+            </div>
+			
+						
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Fake news</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					
+					</p>
+					
+					
+				</div>
+            </div>
+			
+						
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">True news</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Insights:<br>
+
+1. True news doesn’t involve much trump instead on Republican Party and Russia <br>
+2. There are news about Budget, military which comes under government news
+					</p>
+					
+					
+				</div>
+            </div>
+			
+						
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Time series analysis- Fake/True news</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Let’s look at the timeline of true and fake news that were circulated in the media.
+					</p>
+					
+					<p>
+					Insights:<br>
+
+1. True news got their dominance since Aug 2017. As they are seen at a very higher rate. That is a good sign <br>
+2. There are few outliers in true news where it was higher than the fake news(Nov 9, 2016, and Apr 7, 2017)<br>
+3. Our dataset has more fake news than the true one as we can see that we don’t have true news data for the whole of 2015, So the fake news classification will be pretty accurate than the true news getting classified
+</p>
+				</div>
+            </div>
+			
+						
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Stemming the reviews</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Stemming is a method of deriving root words from the inflected word. Here we extract the reviews and convert the words in reviews to their root word. for example,
+<br>
+Going->go<br>
+Finally->fina<br>
+If you notice, the root words don’t need to carry semantic meaning. There is another technique knows as Lemmatization where it converts the words into root words that have semantic meaning. Since it takes time. I’m using stemming
+					</p>
+					<pre class="highlight"><code>
+<span class="c"># Extracting 'reviews' for processing</span>
+<span class="n">news_features</span> <span class="o">=</span> <span class="n">clean_news</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">news_features</span> <span class="o">=</span> <span class="n">news_features</span><span class="o">[[</span><span class="s1">'news'</span><span class="o">]]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">news_features</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</code></pre>
+
+<p> And </p>
+<pre class="highlight"><code>
+<span class="c"># Importing NLTK libraries</span>
+<span class="kn">import</span> <span class="nn">nltk</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="kn">import</span> <span class="n">stopwords</span>
+<span class="c"># Performing stemming on the review dataframe</span>
+<span class="kn">from</span> <span class="nn">nltk.stem.porter</span> <span class="kn">import</span> <span class="n">PorterStemmer</span>
+
+<span class="c"># Getting stop words</span>
+<span class="n">stop_words</span> <span class="o">=</span> <span class="n">set</span><span class="p">(</span><span class="n">stopwords</span><span class="o">.</span><span class="n">words</span><span class="p">(</span><span class="s2">&quot;english&quot;</span><span class="p">))</span>
+
+<span class="c"># Performing stemming on the review dataframe</span>
+<span class="n">ps</span> <span class="o">=</span> <span class="n">PorterStemmer</span><span class="p">()</span>
+
+<span class="c"># Splitting and adding the stemmed words except stopwords</span>
+<span class="n">corpus</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">news_features</span><span class="p">)):</span>
+    <span class="n">news</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s2">&quot;[^a-zA-Z]&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="n">news_features</span><span class="p">[</span><span class="s1">&#39;news&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">])</span>
+    <span class="n">news</span> <span class="o">=</span> <span class="n">news</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+    <span class="n">news</span> <span class="o">=</span> <span class="n">news</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+    <span class="n">news</span> <span class="o">=</span> <span class="p">[</span><span class="n">ps</span><span class="o">.</span><span class="n">stem</span><span class="p">(</span><span class="n">word</span><span class="p">)</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">news</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">stop_words</span><span class="p">]</span>
+    <span class="n">news</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">news</span><span class="p">)</span>
+    <span class="n">corpus</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">news</span><span class="p">)</span>
+
+<span class="c"># Getting the target variable</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">clean_news</span><span class="p">[</span><span class="s1">&#39;output&#39;</span><span class="p">]</span>
+</code></pre>
+
+					
+				</div>
+            </div>
+			
+						
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">One hot for Embedding layers</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					Before jumping into creating a layer let’s take some vocabulary size. There might be a question of why vocabulary size? it is because we will be one hot encoding the sentences in the corpus for embedding layers. While one-hot encoding the words in sentences will take the index from the vocabulary size. Let’s fix the vocabulary size to 10000
+					</p>
+					
+					<pre class="highlight"><code>
+<span class="c"># Setting up vocabulary size</span>
+<span class="n">voc_size</span> <span class="o">=</span> <span class="mi">10000</span>
+
+<span class="c"># One hot encoding </span>
+<span class="n">onehot_repr</span> <span class="o">=</span> <span class="p">[</span><span class="n">one_hot</span><span class="p">(</span><span class="n">words</span><span class="p">,</span> <span class="n">voc_size</span><span class="p">)</span><span class="k">for</span> <span class="n">words</span> <span class="ow">in</span> <span class="n">corpus</span><span class="p">]</span>
+</code></pre>
+
+				</div>
+            </div>
+			
+						
+			
+			<div class="bg-link-item js-hover-cursor">
+                <div class="title-box">
+                    <p class="h2">
+                        <a href="technologies/index.html#internet-of-things-anchor" class="js-ajax-link">Padding embedded documents</a>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <p>
+					All the neural networks require to have inputs that have the same shape and size. However, when we pre-process and use the texts as inputs for our LSTM model, not all the sentences have the same length. In other words, naturally, some of the sentences are longer or shorter. We need to have the inputs of the same size, this is where the padding is necessary. Here we take the common length as 5000 and perform padding using pad_sequence() function. Also, we are going to ‘pre’ pad so that zeros are added before the sentences to make the sentence of equal length
+					</p>
+					<pre class="highlight"><code>
+<span class="c"># Setting sentence length</span>
+<span class="n">sent_length</span><span class="o">=</span><span class="mi">5000</span>
+
+<span class="c"># Padding the sentences</span>
+<span class="n">embedded_docs</span><span class="o">=</span><span class="n">pad_sequences</span><span class="p">(</span><span class="n">onehot_repr</span><span class="p">,</span><span class="n">padding</span><span class="o">=</span><span class="s1">'pre'</span><span class="p">,</span><span class="n">maxlen</span><span class="o">=</span><span class="n">sent_length</span><span class="p">)</span>
+<span class="n">print</span><span class="p">(</span><span class="n">embedded_docs</span><span class="p">)</span>
+</code></pre>
+
+
+					<p>
+					We can see all the sentences are of equal length with the addition of zeros in front of the sentences and making all the sentences of length 5000.
+					</p>
+				</div>
+            </div>
+			
+						
+			
+			
+			
+				
+			
+			
+			
+			
+        </div>
+    </div>
+</section>
+    <div id="indent"></div>
+</div>
+<footer id="footer" class="js-light-cursor js-view-checker" data-vp-offset="40%">
+    <div class="container">
+                    <div class="footer-contacts-box">
+    <p class="h2"><span class="animate">You Can Share Your Experience</span></p>
+    <div class="footer-contacts">
+        <div class="has-icon">
+            <span class="icon"><svg width="26" height="20" viewBox="0 0 26 20" fill="none"><rect x="0.5" y="0.5" width="25" height="19" rx="3.5" stroke="#8691A8"/><path d="M3 4L13 14L23 4M9.5 11.5L4 17M16 11.5L21.5 17" stroke="#8691A8"/></svg></span>
+            <p><a href="mailto:tazelhossan@gmail.com">tazelhossan@gmail.com</a></p>
+        </div>
+        <div class="has-icon">
+            <span class="icon"><svg width="18" height="26" viewBox="0 0 18 26" fill="none"><path d="M4 0.5H14C15.933 0.5 17.5 2.067 17.5 4V22C17.5 23.933 15.933 25.5 14 25.5H4C2.067 25.5 0.5 23.933 0.5 22V4C0.5 2.067 2.067 0.5 4 0.5Z" stroke="#8691A8"/><path d="M10.5 20C10.5 20.8284 9.82843 21.5 9 21.5C8.17157 21.5 7.5 20.8284 7.5 20C7.5 19.1716 8.17157 18.5 9 18.5C9.82843 18.5 10.5 19.1716 10.5 20Z" stroke="#8691A8"/></svg></span>
+            <p><a href="tel:+8801750587623">+88 01750-587623</a></p>
+        </div>
+        <div class="has-icon">
+            <span class="icon"><svg width="26" height="20" viewBox="0 0 26 20" fill="none"><rect x="0.5" y="0.5" width="25" height="19" rx="3.5" stroke="#8691A8"/><circle cx="13" cy="10" r="4.75" stroke="#8691A8"/><circle cx="13" cy="10" r="1.5" stroke="#8691A8"/><path d="M13 14.5L13 16" stroke="#8691A8"/><path d="M13 4L13 5.5" stroke="#8691A8"/><path d="M17.5 10H19" stroke="#8691A8"/><path d="M7 10H8.5" stroke="#8691A8"/></svg></span>
+            <p>Jahangirnagr University <span class="separator">/</span> <span class="city">Department of</span></p>
+            <p>Computer Science & Engineering <span class="separator">/</span> <span class="city">Savar</span></p>
+            <p>Dhaka <span class="separator">/</span> <span class="city">1343</span></p>
+        </div>
+    </div>
+</div>
+
+   <div class="footer-form-box">
+    <form id="contactForm"  >
+        <input type="hidden" name="_language" value="en">
+        <input type="text" name="_gotcha" style="display:none">
+        <div class="field required">
+            <label class="field-name" for="form-name">
+                <span>Name</span>
+            </label>
+            <div class="inp-box">
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <p class="field-error" style="display: none"></p>
+        </div>
+        <div class="field required">
+            <label class="field-name" for="form-email">
+                <span>Email</span>
+            </label>
+            <div class="inp-box">
+                <input id="email" name=="email" type="email" name="_replyto" class="form-control" required>
+            </div>
+            <p class="field-error" style="display: none"></p>
+        </div>
+        <div class="field required">
+            <label class="field-name" for="form-message">
+                <span>Message</span>
+            </label>
+            <div class="inp-box">
+                <textarea id="message" name="message" rows="1" cols="1" class="form-control" required></textarea>
+            </div>
+            <p class="field-error" style="display: none"></p>
+        </div>
+        <button type="submit" class="btn">Get in touch<span class="btn-circle"><svg width="22" height="8" viewBox="0 0 22 8" fill="none"><path d="M0 7H18L10.9565 2V5.21429" stroke="#DC0C1C" stroke-width="2"/></svg></span></button>
+        <div class="result-message"></div>
+        <div class="ajax-form-succes-message" style="display: none">
+            <p>Your message was successfully sent.</p>
+        </div>
+    </form>
+</div>
+            </div>
+    <div class="footer-bg">
+        <div class="container">
+            <svg width="19" height="20" viewBox="0 0 19 20" fill="none"><line x1="0.353553" y1="0.646447" x2="7.76532" y2="8.05821" stroke="#8691A8"/><path d="M18 18.6602L9.16981 9.82997L18 0.999779" stroke="#8691A8"/></svg>
+            <svg width="31" height="31" viewBox="0 0 31 31" fill="none"><line x1="0.646447" y1="30.6464" x2="13.8817" y2="17.4112" stroke="#8691A8"/><path d="M30 30.4341L15.283 15.7171L30 1.00012" stroke="#8691A8"/></svg>
+        </div>
+    </div>
+</footer>
+
+    <div id="popup-box">
+        <div class="container"></div>
+    </div>
+
+<div class="cookies-message" style="display: none">
+    <div class="container">
+    <p>We use cookies to improve the usability of our website. </p>
+<span class="js-agree">I agree</span></div>
+</div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+<script src="assets/js/signup.js"></script>
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/jquery.responsimg.min.js"></script>
+<script src="assets/js/jquery.viewportchecker.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/textarea-autosize.min.js"></script>
+<script src="assets/js/lottie.min.js"></script>
+    <script>
+        /*Page preloader*/
+        Pace.on("update", function(percent){
+            percent = percent.toFixed(0);
+            $('#page-preloader .fill').css('width', percent + '%')
+        });
+        Pace.on('done', function(){
+            setTimeout(function(){
+                $('body').addClass('page-load');
+                $('#page-preloader').fadeOut(550);
+            }, 500);
+        });
+    </script>
+	
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
